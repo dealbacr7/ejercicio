@@ -52,3 +52,7 @@ print(f"Personas cercanas a {persona1.nombre}: {personas_cercanas}")
 
 persona_mas_cercana = calcular_persona_mas_cercana(persona1, todas_las_personas)
 print(f"Persona más cercana a {persona1.nombre}: {persona_mas_cercana}")
+
+print(persona1)
+
+print(f"Distancia entre {persona1.nombre} y {persona2.nombre}: {persona1.distancia_a(persona2)}")
